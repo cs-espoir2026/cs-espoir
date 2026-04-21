@@ -1374,3 +1374,42 @@ form a {
 form a:hover {
     text-decoration: underline;
 }
+
+.presentation pre {
+    white-space: pre-wrap;   /* permet retour à la ligne automatique */
+    word-wrap: break-word;   /* casse les mots trop longs */
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.presentation pre {
+    white-space: pre-wrap;      /* garde les paragraphes + retour à la ligne */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    font-family: "Times New Roman", Georgia, serif; /* police propre type document */
+    font-size: 18px;            /* taille lisible */
+    line-height: 1.6;           /* espacement confortable */
+
+    max-width: 100%;
+}
+
+.titre-section {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.presentation pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+    max-width: 100%;
+
+    text-indent: 30px; /* 👈 indentation du début de chaque paragraphe */
+}
